@@ -185,7 +185,7 @@ Below is the complete `.env.example` file so you can see exactly what to set. Co
 
 # MongoDB connection string (local or Atlas).
 # Local: mongodb://localhost:27017/stockly
-# Atlas: mongodb+srv://USER:PASSWORD@cluster.mongodb.net/stockly?retryWrites=true&w=majority
+# Atlas: mongodb+srv://USER:PASSWORD@mongo
 DATABASE_URL="mongodb://localhost:27017/stockly"
 
 # Secret used to sign JWT session tokens. Use a long random string in production.
@@ -601,3 +601,4 @@ If you have any questions or want to share your work, reach out via GitHub or my
 **Enjoy building and learning!** 🚀
 
 Thank you! 😊
+
