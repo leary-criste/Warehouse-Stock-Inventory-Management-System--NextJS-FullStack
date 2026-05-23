@@ -351,4 +351,4 @@ export function generateInvoicePDFBuffer(data: InvoicePDFData): Buffer {
   const base64 = generateInvoicePDF(data);
   const base64Data = base64.split(",")[1] || "";
   return Buffer.from(base64Data, "base64");
-}
+}
