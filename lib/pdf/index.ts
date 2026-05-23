@@ -5,4 +5,4 @@
 export {
   generateInvoicePDF,
   generateInvoicePDFBuffer,
-} from "./invoice-generator";
+} from "./invoice-generator";
